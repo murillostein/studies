@@ -1,0 +1,20 @@
+contar o numero de letras
+-espaço ñ conta
+-tem que mostras o nº de letras
+contar nº de palavras 
+-tem que mostrar o nº de palavras
+-palavras sao coisas entre dois espaços
+contar nº de frases 
+-entre duas pontuaçoes(. ! ?)
+-em que mostrar o nº
+
+NO FINAL SO PRECISA MOSTRAR A SERIE
+
+\0=> fim da palavra/codigo
+
+strlen - calculate the length of a string
+
+
+
+PEGAR A LETRA => get_char("%c", nome[0])
+ string texto = get_string("text: ")

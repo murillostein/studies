@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    margin-top: -10px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: #e9e9e9;
+    font-family: 'Balsamiq Sans', cursive;
+    overflow-x: hidden;
+}
+header {
+    height: 80px;
+    padding-bottom: 10px;
+}
+.cabecalho {
+    margin-top: -10px;
+    background-color: #191919;
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    padding: 5px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.escopo {
+    vertical-align: middle;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo {
+    color:rgb(203, 29, 32);
+    font-size: 55px;
+    padding: 5px;
+    position: relative;
+    margin-left: 35px;
+    width: 30%;
+    float: left;
+}
+.menu ul li {
+    color: white;
+    font-size: 23px;
+    display: inline;
+    list-style: none;
+    float: right;
+    padding: 8px;
+}
+.menu ul li:hover {
+    border-bottom: 5px white;
+    height: 0px;
+}
+.menu {
+    top: 40px;
+    width: 50%;
+    float: right;
+    padding-right: 50px;
+}
+
+section.principal {
+    margin: 0 auto;
+    width: 968px;
+    position: relative;
+    border: blue;
+    border-left: rgb(39, 43, 46) solid 6px;
+    border-right: rgb(39, 43, 46) solid 6px;
+    padding: 1px;
+    padding-top: 30px;
+    min-height: 500px;
+    background-color: #bdbebd;
+}
+#tabela {
+    margin: 0 auto;
+    color:white;
+    font-size: 20px;
+    top: 90px;
+    border: black 2px solid;
+    background-color: #191919;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 10px 10px;
+    
+}
+#tabela caption {
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin:0 auto;
+}
+
+
+tbody tr {
+    margin: 0 auto;
+    border: #191919 1px solid;
+    padding: 0px;
+    background-color: white;
+}
+tbody td{
+    margin:0 auto;
+    color: black;
+    background-color: white;
+    font-size: 15pxpx;
+    margin-left: 10px;
+    padding-left: 10px;
+    border:#191919 1px solid;
+    border-radius: 5px 5px;
+}
+
+
+
+.header tr{
+    margin: 0 auto;
+    border: white 1px solid;
+    border-radius: 5px 5px;
+    padding: 0px;
+    background-color:#191919;
+    
+}
+.header td{
+    margin:0 auto;
+    font-size: 23px;
+    margin-left: 10px;
+    padding-right: 80px;
+    padding-left: 10px;
+    border: white 1px solid;
+    border-radius: 5px 5px;
+}
+.history tr {
+    margin: 0 auto;
+    border: #191919 1px solid;
+    padding: 0px;
+    background-color: white;
+}
+.history td {
+    margin:0 auto;
+    color: black;
+    background-color: white;
+    font-size: 15pxpx;
+    margin-left: 10px;
+    padding-right: 80px;
+    padding-left: 10px;
+    border:#191919 1px solid;
+    border-radius: 5px 5px;
+}
+.info {
+    margin-left: 30px;
+}
+.info ul{
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.cash {
+    display: inline;
+    text-align: center;
+    margin-left: -5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(75, 188, 74);
+    border: #191919 solid 4px;
+    border-radius: 10px 20px;
+    
+}
+.spent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+    background-color:rgb(211, 47, 47);
+    border: #191919 solid 4px;
+    border-radius: 10px 20px;
+    position: sticky;
+    left: 530px;
+}
+
+.new {
+    border: 4px solid #949494;
+    left: 800px;
+    display: inline-block;
+    padding: 0px;
+    background-color: #191919;
+    width: 285px;
+    padding-bottom: 20px;
+    color: #191919;
+    margin-left: -12px;
+    border-radius: 10px 20px;
+    position: sticky;
+}
+.new li {
+    margin-left: 10px;
+    top: 20px;
+    padding: 10px;
+    color: #191919;
+}
+.new input {
+    border: 4px double #949494;
+    padding-left: 10px;
+    margin-top: 20px;
+    top: 30px;
+    font-size: 15px;
+    height: 46px;
+    color: #191919;
+    border-radius: 10px 10px;
+}
+.button {
+    padding-top: 14px;
+    padding-bottom: 32px;
+}
+label {
+    color: white;
+}
+.checkbox {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-flex;
+}
+.rodape {
+    color: white;
+    margin: 0 auto;
+    margin-top: 0px;
+    clear: both;
+    background-color: #191919;
+    height: 70px;
+    font-size: 20px;
+}
+.rodape p {
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 23px;
+}
+.rodape a {
+    color: #0e76a8;
+}

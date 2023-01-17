@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    margin-top: -10px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: #e9e9e9;
+    font-family: 'Balsamiq Sans', cursive;
+    overflow-x: hidden;
+}
+header {
+    height: 80px;
+}
+.cabecalho {
+    margin-top: -10px;
+    background-color: #191919;
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    padding: 5px;
+}
+a {
+    color: white;;
+    text-decoration: none;
+}
+a :hover {
+    border-bottom: 1px white;
+}
+
+.escopo {
+    vertical-align: middle;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo {
+    color:rgb(203, 29, 32);
+    font-size: 55px;
+    padding: 5px;
+    position: relative;
+    margin-left: 35px;
+    width: 30%;
+    float: left;
+}
+.menu ul li {
+    color: white;
+    font-size: 23px;
+    display: inline;
+    list-style: none;
+    float: left;
+    padding: 8px;
+}
+.menu ul li:hover {
+    border-bottom: 5px white;
+    height: 0px;
+}
+.menu {
+    top: 40px;
+    width: 37%;
+    float: right;
+}
+
+section.principal {
+    height: 604px;
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+figure.imagem-principal {
+    position: relative;
+    height: 608px;
+    margin: 0 auto;
+}
+
+figure.imagem-principal img {
+    display: block;
+    width: 100%;
+    height: 608px;
+    border-bottom: solid 6px #191919;
+    border-left: solid 6px #191919;
+    border-right: solid 6px #191919;
+}
+figure.imagem-principal figcaption {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    top: 330px;
+    text-align: center;
+    display: block;
+    color:  rgb(39, 43, 46);
+}
+form {
+    text-align: center;
+    display: block;
+    margin-left: 395px;
+}
+input {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 15px;
+    height: 46px;
+    border: darkgray solid 2px;
+    box-shadow: black 2px 2px 2px;
+    padding: .375rem .75rem;;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px;
+    color:  rgb(39, 43, 46);
+    border-radius: 5px 10px;
+}
+input.button {
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    background-color: rgb(39, 43, 46);
+    height:35px;
+    width:100px;
+    border:  rgb(162, 163, 163) solid 1px;
+    border-radius: 5px 10px;
+    display: inline-block;
+    margin-right: 0px;
+}
+button {
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    background-color: rgb(39, 43, 46);
+    height:30px;
+    width:100px;
+    border:  rgb(162, 163, 163) solid 1px;
+    display: inline-block;
+    margin-right: 395px;
+}
+.register {
+    margin-right: 395px;
+}
+.rodape {
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    clear: both;
+    background-color: #191919;
+    height: 70px;
+    font-size: 20px;
+}
+.rodape p {
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 23px;
+}
+.rodape a {
+    color: #0e76a8;
+}
